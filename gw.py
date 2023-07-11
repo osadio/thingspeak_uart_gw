@@ -10,8 +10,8 @@ ser = serial.Serial(SERIAL_PORT, baudrate=BAUD_RATE)
 
 # Thingspeak parameters
 # https://thingspeak.readthedocs.io/en/latest/api.html
-channel_id = 2204028
-write_key = "FUZTVCE6YKB0QI3E"
+channel_id = 0000000
+write_key = ""
 channel = thingspeak.Channel(id=channel_id, api_key=write_key)
 
 
